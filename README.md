@@ -20,3 +20,21 @@ lyqStickView.setAdapter(
     arrayListOf("录播中心", "直播中心"),
     arrayListOf(BlankFragment(), BlankFragment()))
 ```
+
+#### 添加依赖
+
+```css
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```css
+	dependencies {
+	        implementation 'com.github.renhuan:lyq:1.0.0'
+	}
+```
+
