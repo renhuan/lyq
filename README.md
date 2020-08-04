@@ -23,19 +23,19 @@ lyqStickView.setAdapter(
 
 #### 添加依赖
 
-```css
+```groovy
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
-```css
-	dependencies {
-	        implementation 'com.github.renhuan:lyq:最新版'
-	}
+```groovy
+dependencies {
+    implementation 'com.github.renhuan:lyq:最新版'
+}
 ```
 
 最新版 = [![](https://jitpack.io/v/renhuan/lyq.svg)](https://jitpack.io/#renhuan/lyq)
