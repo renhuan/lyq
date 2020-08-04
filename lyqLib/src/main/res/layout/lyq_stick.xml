@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@android:color/white"
+            app:tl_indicator_color="#F6B96E"
+            app:tl_indicator_corner_radius="8dp"
+            app:tl_indicator_height="3dp"
+            app:tl_indicator_width="20dp"
+            app:tl_indicator_width_equal_title="true"
+            app:tl_tab_space_equal="true"
+            app:tl_textBold="BOTH"
+            app:tl_textSelectColor="#F6B96E"
+            app:tl_textUnselectColor="#5A575A"
+            app:tl_textsize="16dp"
+            app:tl_underline_color="#ededed"
+            app:tl_underline_height="1px" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
