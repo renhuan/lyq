@@ -34,7 +34,8 @@ allprojects {
 
 ```css
 	dependencies {
-	        implementation 'com.github.renhuan:lyq:1.0.0'
+	        implementation 'com.github.renhuan:lyq:最新版'
 	}
 ```
 
+最新版 = [![](https://jitpack.io/v/renhuan/lyq.svg)](https://jitpack.io/#renhuan/lyq)
