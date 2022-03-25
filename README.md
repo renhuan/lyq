@@ -1,4 +1,4 @@
-# 查看演示:[demo演示]( http://renhuan.aizhifou.cn/ed36e0f2f626064bbdd7acba4b2b4c12.mp4 )
+# 查看演示:[demo演示]( http://renhuan.aizhifou.cn/ed36e0f2f626064bbdd7acba4b2b4c12.mp4 ) （已废弃）
 
 # 使用说明（两步走）
 
